@@ -10,6 +10,9 @@
   <meta name="author"
   content="Alan Campbell"
     <title>Assignment 06</title>
+    <style>
+    table, td {border: 1px solid black}
+    </style>
 </head>
 <body>
     <h1>Contact Green Source</h1>
@@ -29,7 +32,28 @@
             <td>Monday - Friday: 7am - 5pm</td>
         </tr>
         <tr>
-            <th></th> 
+            <th></th>
             <td>Saturday: 8am - 4pm</td>
         </tr>
     </table>
+
+    <form action="https://example.com/registration.php" method="post">
+What is your favorite food?:
+      <input type="text" name="Favorite food" maxlength="15">
+
+
+
+      <br>
+Enter your comments below:
+<br>
+      <textarea cols="35" rows="5">
+        I like tacos
+      </textarea>
+
+      <br><br>
+
+      <input type="button" value="Submit!">
+    </form>
+
+  </body>
+  </html>
