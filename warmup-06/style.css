@@ -1,0 +1,11 @@
+div {
+  background-color: Olive;
+  height: 200px;
+}
+.box{
+  height: 400px;
+}
+#red-box{
+  background-color: Red;
+  width: 50%; 
+}
