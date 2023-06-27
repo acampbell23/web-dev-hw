@@ -7,5 +7,9 @@ div {
 }
 #red-box{
   background-color: Red;
-  width: 50%; 
+  width: 50%;
+}
+
+.color-text {
+   color: Red;
 }
